@@ -115,7 +115,7 @@ params:
       url: 'https://www.instagram.com/warwlock/'
     twitter:
       enabled: true
-      url: 'https://twitter.com/warwlock'
+      url: 'https://x.com/warwlock'
     youtube:
       enabled: true
       url: 'https://www.youtube.com/@Warwlock'

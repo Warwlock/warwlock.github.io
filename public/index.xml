@@ -6,15 +6,8 @@
     <description>Recent content on Warwlock Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 May 2025 19:44:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 May 2025 21:19:25 +0000</lastBuildDate>
     <atom:link href="http://192.168.1.8:34133/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Game Development</title>
-      <link>http://192.168.1.8:34133/game-development/</link>
-      <pubDate>Fri, 02 May 2025 19:44:12 +0000</pubDate>
-      <guid>http://192.168.1.8:34133/game-development/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Blog Post 1</title>
       <link>http://192.168.1.8:34133/posts/blog-post-1/</link>
@@ -133,6 +126,13 @@
       <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
       <guid>http://192.168.1.8:34133/prose/</guid>
       <description>@tailwindcss/typography View on GitHub!&#xA;Beautiful typographic defaults for HTML you don&amp;rsquo;t control.&#xA;The official Tailwind CSS Typography plugin provides a set of prose classes you can use to add beautiful typographic defaults to any vanilla HTML you don’t control, like HTML rendered from Markdown, or pulled from a CMS.&#xA;Tailwind CSS IntelliSense extension for Visual Studio Code&#xA;&amp;lt;article class=&amp;#34;prose lg:prose-xl&amp;#34;&amp;gt;&#xD;{{ markdown }}&#xD;&amp;lt;/article&amp;gt; To see what it looks like in action, check out our live demo on Tailwind Play.</description>
+    </item>
+    <item>
+      <title>Game Development</title>
+      <link>http://192.168.1.8:34133/game-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.1.8:34133/game-development/</guid>
+      <description>This is a header nice header</description>
     </item>
   </channel>
 </rss>
