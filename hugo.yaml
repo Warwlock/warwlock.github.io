@@ -54,24 +54,37 @@ params:
   author: Warwlock
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
-  moto: "Science and Art"
   description: "Game Development and Tool Creation"
+  title: Warwlock Portfolio
+  moto: "Science and Art"
+  text: "Developing Games and Creates Tools for Unity, Blender and Unreal Engine"
   disable_theme_toggle: false
   disable_stay_uptodate: true
+  disable_blog: true
+  disable_sponsor: true
 
   p1:
     heading: "Game Development Projects"
-    image: "images/pages/our-mission.png"
+    image: "images/pages/cog-cipher/cog-cipher-ingame1.png"
     content:
-      - text: Test content 1 by <a href="https://nusserstudios.com" class="hover:underline hover:text-primary-600"><span class="font-black uppercase">Nusser</span> <span class="font-light uppercase">Studios.</span></a>
-      - text: "Test content 2"
-      - text: "See more at: [Warwlock at Github](github.com/Warwlock)"
+      - text: Game jams have been a crucial part of my development process, providing intense environments to rapidly prototype and bring ideas to life. On itch.io, I've created some games for game jams under the pressure of time constraints. Alongside these, you can also find examples of my mobile game development, showcasing a broader scope of my work.
+      - text: "My latest game is Cog & Cipher: Mystrey of Uncle Oliver. I made this for Epic Mega Jam inside Unreal Engine. Find more at: "
+        link: "https://warwlock.itch.io/cog-ciphers-mystery-of-uncle-oliver"
+        linktext: "Cog & Cipher at itch.io"
+      - text: "You can find all of my games and my game development journey at:"
+    link:
+      url: "/game-development/"
+      text: "Game Development"
       
   p2:
-    heading: "Just in time for Hacktoberfest with JIT Tailwind."
-    image: "images/pages/hacktoberfest.jpg"
+    heading: "Tool & Utility Development"
+    image: "images/featured/msn-graph-img.png"
     content:
-      - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at purus non enim commodo tincidunt vel in nulla. Aenean pretium dolor non ultricies bibendum. Etiam quis blandit enim. Nunc condimentum ut lorem in faucibus. Phasellus varius ligula et commodo tristique. Nunc sodales nisl nec laoreet vehicula. Donec velit nibh, sollicitudin at nulla a, egestas dignissim eros. Sed lacinia hendrerit interdum. Vestibulum pellentesque sem venenatis nisl tempor accumsan sit amet tempus felis. Mauris leo diam, porttitor nec bibendum id, tempus ac nulla. Etiam congue ornare erat at convallis. Donec in nisi dapibus, mattis risus vel, imperdiet enim. Donec fermentum sit amet tortor nec tincidunt. Nam nec lectus tortor. Nunc sit amet laoreet orci, porta ornare massa. Phasellus eget lorem mi. Nam eleifend ultricies sapien, quis mollis leo bibendum at. Quisque viverra lorem sit amet magna aliquet, et dignissim arcu eleifend."
+      - text: My interest in tackling technical challenges extends to creating custom tools and solutions. I've developed some utilities beside game development. 
+      - text: Such as a tool for bridging the gap between Blender materials and Unity shaders, a replacement for Unity's standard post-processing with advanced features, and a system for bringing Blender's node-based workflow into Unity's Shader Graph. These projects demonstrate my ability to identify pain points in development workflows and engineer innovative solutions.
+    link:
+      url: "https://github.com/Warwlock"
+      text: Find more at my Github Page
   p3:
     heading: "Backed by world-renowned investors"
     content:
@@ -107,6 +120,9 @@ params:
     github:
       enabled: true
       url: 'https://github.com/Warwlock'
+    patreon:
+      enabled: false
+      url: 'https://github.com/Warwlock'
     facebook:
       enabled: false
       url: 'https://facebook.com/nusserstudios'
@@ -123,14 +139,10 @@ params:
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
     - identifier: about
       name: About
       url: /about/
-      weight: 20
+      weight: 10
     - identifier: gameDevelopment
       name: Game Development
       url: /game-development/
@@ -143,10 +155,10 @@ menu:
     #  pre: complexdropdown
     #  name: Dropdown
     #  weight: 40
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 50
+    #- identifier: contact
+    #  name: Contact
+    #  url: /contact/
+    #  weight: 50
   categories:
     - identifier: prose
       name: Prose

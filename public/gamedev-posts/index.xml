@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gamedev-Posts on Warwlock Portfolio</title>
+    <link>http://192.168.1.8:41113/gamedev-posts/</link>
+    <description>Recent content in Gamedev-Posts on Warwlock Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://192.168.1.8:41113/gamedev-posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cog &amp; Cipher: Mystery of Uncle Oliver</title>
+      <link>http://192.168.1.8:41113/gamedev-posts/gamedev-cog-cipher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.1.8:41113/gamedev-posts/gamedev-cog-cipher/</guid>
+      <description>Platform: itch.io (Game Jam)&#xA;Genre: Steampunk Adventure, Story-Driven, Puzzle&#xA;Description: Embark on a captivating journey through a world where gears turn, steam hisses, and secrets lurk in every corner. In Cog &amp;amp; Cipher, you step into the shoes of Clara, a determined young adventurer on a quest to unravel the enigma surrounding her brilliant Uncle Oliver&amp;rsquo;s disappearance.&#xA;Key Features:&#xA;Immersive Steampunk World: Explore a richly detailed universe blending Victorian aesthetics with imaginative machinery and clockwork wonders.</description>
+    </item>
+  </channel>
+</rss>
