@@ -49,15 +49,15 @@ markup:
       hardWraps: false
       unsafe: true
       xhtml: false
-
+  
 params:
   author: Warwlock
-  authorimage: ../assets/images/global/author.webp
-  og_image: /images/tailbliss-cover.png
+  authorimage: images/global/logo-512.png
+  og_image: images/featured/cargo-image.png
   description: "Game Development and Tool Creation"
   title: Warwlock Portfolio
   moto: "Science and Art"
-  text: "Developing Games and Creates Tools for Unity, Blender and Unreal Engine"
+  text: "Developing Games and Creating Tools for Unity, Blender and Unreal Engine"
   disable_theme_toggle: false
   disable_stay_uptodate: true
   disable_blog: true
@@ -85,6 +85,17 @@ params:
     link:
       url: "https://github.com/Warwlock"
       text: Find more at my Github Page
+  
+  pe1:
+    heading: "Other Projects"
+    image: "images/featured/3d-video-render.png"
+    content:
+      - text: Alongside my game development projects and tool development projects, I also worked on other stuff such  as 3D modeling and 3D animations. I also tried to create a music for a remix contest.
+      - text: "I published all of my 3D work and game development projects on Youtube:"
+    link:
+      url: "https://www.youtube.com/@Warwlock"
+      text: "Check Out My Youtube Channel"
+
   p3:
     heading: "Backed by world-renowned investors"
     content:
@@ -192,18 +203,18 @@ menu:
       name: About
       url: /about/
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /categories/blog/
-      weight: 20
+    #- identifier: blog
+    #  name: Blog
+    #  url: /categories/blog/
+    #  weight: 20
     #- identifier: news
     #  name: News
     #  url: /categories/news/
     #  weight: 30
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 50
+    #- identifier: contact
+    #  name: Contact
+    #  url: /contact/
+    #  weight: 50
 
 markup:
   goldmark:

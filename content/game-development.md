@@ -6,7 +6,7 @@ description: Game Development Portfolio
 featured_image: images/featured/cargo-image.png
 ---
 
-## [My Game Development Journey on itch.io](https://warwlock.itch.io/)
+## [More On itch.io](https://warwlock.itch.io/)
 
 ---
 

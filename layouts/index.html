@@ -15,7 +15,7 @@
                     </p>
                 </div>
                 <div class="col-span-6">
-                    {{ $hero := resources.GetMatch "images/pages/warwlock-logo.jpg" }}
+                    {{ $hero := resources.GetMatch "images/pages/logo-back.png" }}
 
                     {{ $thumb := ($hero.Fill "400x400 webp q90") }}
                     {{ $large := ($hero.Fill "576x576 webp q90") }}
@@ -127,6 +127,59 @@
                     {{ end }}
                     {{ end }}
 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- pe1 section -->
+    <div class="relative my-4">
+        <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
+            <div class="relative sm:py-8 lg:py-0">
+                <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
+                    <div class="absolute inset-y-0 w-full bg-gray-50 dark:bg-gray-900/10 right-1/2 rounded-r-3xl lg:right-72"></div><svg class="absolute -ml-3 top-8 left-1/2 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392" loading="lazy">
+                        <defs>
+                            <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                                <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60" fill="currentcolor"></rect>
+                            </pattern>
+                        </defs>
+                        <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)"></rect>
+                    </svg>
+                </div>
+                <div class="relative w-full h-auto px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:px-0 lg:py-20">
+                    <div class="overflow-hidden shadow-xl rounded-2xl">
+                        {{ $pe1image := resources.Get .Site.Params.Pe1.Image }}
+                        {{ with $pe1image }}
+                        {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
+                        <img imgh src="{{ .RelPermalink }}" width="" height="" class="w-full h-auto mx-auto" alt="P1" loading="lazy" />
+                        {{ end }}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0">
+                <div class="md:pt-12 sm:pt-6 lg:pt-20">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
+                        {{ .Site.Params.Pe1.Heading }}
+                    </h2>
+                    <div class="mt-6 text-gray-900 dark:text-white">
+                        <div class="mt-6 space-y-6 text-gray-900 dark:text-white">
+                            {{ range .Site.Params.Pe1.Content }}
+                            <p class="text-lg text-gray-900 dark:text-white">
+                                {{ .text }}
+                                {{ if .link }}
+                                <a href="{{ .link }}" target="_blank" class="text-primary-400 dark:text-primary-300 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
+                                    {{ .linktext }}</a>.
+                                {{ end }}
+                            </p>
+                            {{ end }}
+                            {{ if .Site.Params.Pe1.Link }}
+                            <a href="{{.Site.Params.Pe1.Link.url}}" target="_blank" class="block text-2xl font-extrabold text-primary-400 dark:text-primary-300 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
+                                {{ .Site.Params.Pe1.Link.Text }}&nbsp&rarr;
+                            </a>
+                            {{ end }}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
