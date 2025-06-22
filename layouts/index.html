@@ -15,7 +15,9 @@
                     </p>
                 </div>
                 <div class="col-span-6">
-                    {{ $hero := resources.GetMatch "images/pages/logo-back.png" }}
+                    {{ $authorimage := resources.Get .Site.Params.Authorimage }}
+                    <!-- {{ $hero := resources.Get "images/pages/logo-back.png" }} -->
+                    {{ $hero := resources.Get .Site.Params.Authorimage }}
 
                     {{ $thumb := ($hero.Fill "400x400 webp q90") }}
                     {{ $large := ($hero.Fill "576x576 webp q90") }}

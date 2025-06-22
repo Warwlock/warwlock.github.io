@@ -2,82 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://192.168.1.8:37669/tags/blog/</loc>
+    <loc>http://192.168.1.8:40061/tags/blog/</loc>
     <lastmod>2025-05-07T12:02:03+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/categories/blog/</loc>
+    <loc>http://192.168.1.8:40061/categories/blog/</loc>
     <lastmod>2025-05-07T12:02:03+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/posts/blog-post-1/</loc>
+    <loc>http://192.168.1.8:40061/posts/blog-post-1/</loc>
     <lastmod>2025-05-07T12:02:03+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/categories/</loc>
+    <loc>http://192.168.1.8:40061/categories/</loc>
     <lastmod>2025-05-07T12:02:03+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/posts/</loc>
+    <loc>http://192.168.1.8:40061/posts/</loc>
     <lastmod>2025-05-07T12:02:03+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/tags/</loc>
+    <loc>http://192.168.1.8:40061/tags/</loc>
     <lastmod>2025-05-07T12:02:03+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/</loc>
+    <loc>http://192.168.1.8:40061/</loc>
     <lastmod>2025-05-07T12:02:03+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/tags/news/</loc>
+    <loc>http://192.168.1.8:40061/tags/news/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/categories/news/</loc>
+    <loc>http://192.168.1.8:40061/categories/news/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/posts/news-post-1/</loc>
+    <loc>http://192.168.1.8:40061/posts/news-post-1/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/posts/news-post-2/</loc>
+    <loc>http://192.168.1.8:40061/posts/news-post-2/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/posts/news-post-4/</loc>
+    <loc>http://192.168.1.8:40061/posts/news-post-4/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/posts/news-post-5/</loc>
+    <loc>http://192.168.1.8:40061/posts/news-post-5/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/posts/news-post-6/</loc>
+    <loc>http://192.168.1.8:40061/posts/news-post-6/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/posts/news-post-7/</loc>
+    <loc>http://192.168.1.8:40061/posts/news-post-7/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/about/</loc>
+    <loc>http://192.168.1.8:40061/about/</loc>
     <lastmod>2025-05-07T12:02:03+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/posts/blog-post-2/</loc>
+    <loc>http://192.168.1.8:40061/posts/blog-post-2/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/posts/blog-post-3/</loc>
+    <loc>http://192.168.1.8:40061/posts/blog-post-3/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/posts/blog-post-4/</loc>
+    <loc>http://192.168.1.8:40061/posts/blog-post-4/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/posts/blog-post-5/</loc>
+    <loc>http://192.168.1.8:40061/posts/blog-post-5/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/posts/blog-post-6/</loc>
+    <loc>http://192.168.1.8:40061/posts/blog-post-6/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/posts/blog-post-7/</loc>
+    <loc>http://192.168.1.8:40061/posts/blog-post-7/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/contact/</loc>
+    <loc>http://192.168.1.8:40061/contact/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/posts/news-post-3/</loc>
+    <loc>http://192.168.1.8:40061/posts/news-post-3/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/prose/</loc>
+    <loc>http://192.168.1.8:40061/prose/</loc>
     <lastmod>2025-05-02T21:19:25+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.8:37669/game-development/</loc>
+    <loc>http://192.168.1.8:40061/game-development/</loc>
     <lastmod>2025-05-07T12:02:03+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.8:40061/esp01-home-assistant/</loc>
   </url>
 </urlset>

@@ -52,12 +52,12 @@ markup:
   
 params:
   author: Warwlock
-  authorimage: images/global/logo-512.png
-  og_image: images/featured/cargo-image.png
+  authorimage: images/featured/esp01-featured.jpg
+  og_image: images/featured/esp01-featured.jpg
   description: "Game Development and Tool Creation"
   title: Warwlock Portfolio
-  moto: "Science and Art"
-  text: "Developing Games and Creating Tools for Unity, Blender and Unreal Engine"
+  moto: "Home Assistant with ESPHome"
+  text: "A deep dive into creating a custom smart home, from designing my own ESP-01 circuits on perfboard to programming them with ESPHome for seamless Home Assistant control."
   disable_theme_toggle: false
   disable_stay_uptodate: true
   disable_blog: true
@@ -154,6 +154,10 @@ menu:
       name: About
       url: /about/
       weight: 10
+    - identifier: esp01home
+      name: ESP01 Home Assistant
+      url: /esp01-home-assistant/
+      weight: 15
     - identifier: gameDevelopment
       name: Game Development
       url: /game-development/
